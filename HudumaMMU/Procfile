@@ -1,0 +1,2 @@
+web: gunicorn HudumaMMU.wsgi
+release: python manage.py migrate
